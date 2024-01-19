@@ -1,2 +1,1 @@
-# project-RA
-Applicant lending risk assessment modeling 
+# Lending Risk Assessment Modeling (Statistics Team Competion LOGIKA UI 2024 Semifinal)
