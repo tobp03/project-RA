@@ -52,6 +52,7 @@ The cluster from the previous step is then set as label variable on the dataset.
   <img src="https://github.com/tobp03/project-RA/assets/83869882/83b02fc0-bce0-4b73-92a9-b68bbba2835d" alt="Your Image">
 </p>
 Based on the table above, all the model couldnt predict any Cluster 2 and Cluster 3. This is shown from the low F-1 score on both clusters which could be the result of poor predictive features. In summary, the models above couldn't give accurate assessment towards customers which are high-risk, which isn't desired for a BNPL company. Some ideas which could be implemented in the future:
+
 1. Customer segmentation by using other variables.  The 5 variables chosen might not be the best choice to differentiate applicants associated risks.
 2. Applicant demographic and loan information, which servers as the input variables might need a more thorough analysis and data cleaning. Especially identifying which variables impact the most towards the segmented customer.
 3. Applying PCA before K-Means might help with dealing with noise and better interpretability.
